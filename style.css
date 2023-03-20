@@ -21,6 +21,7 @@ body {
 
 }
 
+
 header {
     background-image: url('img.redimencionadas/universo02.jpg.jpg');
     text-align: center;
@@ -29,9 +30,25 @@ header {
     width: auto;
 }
 
+header h1 {
+    padding-top: 50px;
+    font-size: 4vw;
+}
+
 nav {
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0.541), rgba(0, 0, 0, 0.631), rgba(255, 166, 0, 0.704), transparent);
+    padding: 10px;  
+}
+
+nav img.icon {
+    width: 30px;
+ 
+}
+nav > a {
+    color: white;
     padding: 10px;
+    
+
 }
 
 main {
@@ -51,4 +68,16 @@ main {
 }
 article h2 {
     text-align: center;
+}
+
+article h3.imgevolução {
+    background-image: url('img.redimencionadas/evoulução02.jpg');
+    padding: 30px;
+
+}
+
+article h3.imgcriação {
+    background-image: url('img.redimencionadas/criação01.jpg');
+    padding: 30px;
+
 }
