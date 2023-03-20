@@ -22,6 +22,8 @@ body {
 }
 
 
+
+
 header {
     background-image: url('img.redimencionadas/universo02.jpg.jpg');
     text-align: center;
@@ -71,13 +73,19 @@ article h2 {
 }
 
 article h3.imgevolução {
-    background-image: url('img.redimencionadas/evoulução02.jpg');
-    padding: 30px;
+    padding: 50px;
+   
+
+    
 
 }
 
 article h3.imgcriação {
     background-image: url('img.redimencionadas/criação01.jpg');
-    padding: 30px;
+    padding: 50px;
+    border-bottom: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-top-width: 20px;
 
 }
