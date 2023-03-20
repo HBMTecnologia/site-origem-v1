@@ -1,28 +1,40 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family= Passion+One:wght@400;700;900&display=swap');
+
+@import
+url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 :root {
     --cor01: black;
     --cor02: blue;
     --cor03: green;
-    
 
-    --font-family: ;
-    --font-destaque: ;
-    --font-personalizada: ;
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursiva; 
+    --font3:  'Sriracha', cursiva;
 
 }
 * {
     margin: 0px;
-    padding: 0px;
+    padding: 0px;   
 
 }
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--font1);
+}
+
 body {
     background-color: white;
     width: auto;
 
 }
-
-
+body p {
+    
+}
 
 
 header {
@@ -64,7 +76,7 @@ nav > a:hover {
 }
 
 main {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: ;
     text-align: justify;
     text-indent: 15px;
     font-weight: bold;
@@ -76,9 +88,19 @@ main {
     
 }
 
- article h1 {
+article {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.5em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 1.0vw;
+}
+
+ article h2 {
     text-align: center;
     padding: 10px;
+    font-family: var(--cor03);
 
 }
 article h2 {
@@ -104,6 +126,19 @@ article h3.imgcriação {
     width: 700px;
 
 }
+strong {
+    font-weight: bold;
+}
+
+ article div {
+        border: 1px solid black;
+        background-color: rgb(185, 185, 162);
+        list-style-position: inside;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.545);
+        
+    }
 
 
 footer {
