@@ -1,2 +1,21 @@
 @charset "UTF-8";
 
+:root {
+    --cor01: black;
+    --cor02: blue;
+    --cor03: green;
+
+    --font-family: ;
+    --font-destaque: ;
+    --font-personalizada: ;
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+    background-image:green;
+
+}
