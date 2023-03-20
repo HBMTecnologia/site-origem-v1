@@ -85,6 +85,7 @@ article h2 {
     text-align: center;
 }
 
+
 article h3.imgevoluçao {
     background-image: url('img.redimencionadas/evolução01.jpg');
     width: 700px;
@@ -104,14 +105,6 @@ article h3.imgcriação {
 
 }
 
-
-
-main h3 > p {
-    padding: 30px;
-    font-size: 20px;
-    color: blue;
-
-}
 
 footer {
     background-color: black;
