@@ -4,6 +4,7 @@
     --cor01: black;
     --cor02: blue;
     --cor03: green;
+    
 
     --font-family: ;
     --font-destaque: ;
@@ -16,6 +17,38 @@
 
 }
 body {
-    background-image:green;
+    background-image: url('img.redimencionadas/wallpaper005.jpg');
 
+}
+
+header {
+    background-image: url('img.redimencionadas/universo02.jpg.jpg');
+    text-align: center;
+    color: white;
+    padding: 40px;
+    width: auto;
+}
+
+nav {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.541), rgba(0, 0, 0, 0.631), rgba(255, 166, 0, 0.704), transparent);
+    padding: 10px;
+}
+
+main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-indent: 15px;
+    font-weight: bold;
+    background-color: bisque;
+    width: 800px;
+    margin: auto;
+    
+}
+
+ article h1 {
+    text-align: center;
+
+}
+article h2 {
+    text-align: center;
 }
