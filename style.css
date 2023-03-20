@@ -57,7 +57,7 @@ nav {
 
 nav img.icon {
     width: 30px;
-    margin-left: 200px;
+    margin-left: 10px;
  
 }
 nav > a {
@@ -89,7 +89,7 @@ main {
 }
 
 article {
-    padding-top: 10vh;
+    padding-top: 5vh;
     padding-bottom: 10vh;
     line-height: 1.5em;
     padding-left: 30px;
@@ -119,13 +119,17 @@ article h3.imgevoluçao {
 
 
 article h3.imgcriação {
+    background-image: url('img.redimencionadas/criação01.jpg');
+    border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-image: url('img.redimencionadas/criação01.jpg');
     padding: 50px;
     width: 700px;
-
+    /*box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.545);
+    padding-bottom: 20px;  border: 1px solid black;
+    */   
 }
+
 strong {
     font-weight: bold;
 }
@@ -137,9 +141,11 @@ strong {
         border-radius: 10px;
         padding: 10px;
         box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.545);
+        padding-bottom: 20px;
         
     }
 
+    
 
 footer {
     background-color: black;
