@@ -84,8 +84,17 @@ main {
     background-repeat: no-repeat;*/
     width: 800px;
     margin: auto;
+        
+}
+
+main img {
+    height: 10vh;
+    width: auto;     
+    background-size:100px;
+    background-repeat: no-repeat;
+    background-position:  left bottom;
     
-    
+
 }
 
 article {
@@ -165,5 +174,5 @@ footer a {
 
 footer  a:hover {
     color: blue;
-    text-decoration: none;
+    text-decoration: underline;
 }
