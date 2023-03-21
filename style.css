@@ -30,15 +30,16 @@ html, body {
 body {
     background-image: url('img.redimencionadas/pergaminho.jpg');
     background-color: white;
-    width: auto;
+    padding-top: -30px;
+    margin-top: 0px;
+    
 }
 body#img  {
-    background-repeat: repeat-y;
     background-repeat: no-repeat;
     background-size: 20vh;
     background-position: 10% 20%;
-    margin-top: 10px;   
-    }
+    margin-top: 0px;   
+}
     
 header {
     background-image: url('img.redimencionadas/universo02.jpg.jpg');
@@ -46,6 +47,7 @@ header {
     color: white;
     padding: 40px;
     width: auto;
+    
 }
 
 header h1 {
@@ -147,6 +149,20 @@ strong {
         
     }
 
+    div ol > p {
+        background-color: rgba(255, 255, 255, 0.623);
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.66);
+    }
+
+    div > p {
+        background-color: rgba(255, 255, 255, 0.623);
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.66);
+    }
+
     
 
 footer {
@@ -157,6 +173,7 @@ footer {
     text-decoration: none;
     font-style: 30px;
     text-align: center;
+    font-size: 15px;
 }
 
 footer a {
