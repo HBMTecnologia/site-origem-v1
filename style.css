@@ -31,20 +31,15 @@ body {
     background-image: url('img.redimencionadas/pergaminho.jpg');
     background-color: white;
     width: auto;
-
 }
 body#img  {
     background-repeat: repeat-y;
     background-repeat: no-repeat;
-    background-size: 40vh;
-   
+    background-size: 20vh;
+    background-position: 10% 20%;
+    margin-top: 10px;   
+    }
     
-
-    
-    
-}
-
-
 header {
     background-image: url('img.redimencionadas/universo02.jpg.jpg');
     text-align: center;
@@ -73,8 +68,7 @@ nav > a {
     padding: 10px;
     font-weight: bolder;
     border-radius: 5px;
-    transition-duration: 0.5s;
-    
+    transition-duration: 0.5s;   
 
 }
 nav > a:hover {
@@ -91,18 +85,10 @@ main {
    /* background-image: url('img.redimencionadas/pergaminho.jpg');
     background-repeat: no-repeat;*/
     width: 800px;
-    margin: auto;
-        
+    margin: auto;       
 }
 
-main img {
-         
-    
-    
-    
-    
 
-}
 
 article {
     padding-top: 5vh;
