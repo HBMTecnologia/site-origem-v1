@@ -28,11 +28,19 @@ html, body {
 }
 
 body {
+    background-image: url('img.redimencionadas/pergaminho.jpg');
     background-color: white;
     width: auto;
 
 }
-body p {
+body#img  {
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-size: 40vh;
+   
+    
+
+    
     
 }
 
@@ -88,11 +96,10 @@ main {
 }
 
 main img {
-    height: 10vh;
-    width: auto;     
-    background-size:100px;
-    background-repeat: no-repeat;
-    background-position:  left bottom;
+         
+    
+    
+    
     
 
 }
